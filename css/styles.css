@@ -1,0 +1,269 @@
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+
+    margin: 0;
+    background-image: linear-gradient( 270deg, rgba(176, 42, 42, .16) 0%,
+    rgba(176, 42, 42, .56) 18.45%, rgba(176, 42, 42, .8) 49.67%, 
+    rgba(176, 42, 42, .56) 82.52%, rgba(176, 42, 42, .196364) 99.7%, 
+    rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%, 
+    rgba(203, 56, 55, .16) 99.73% );
+
+   font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+
+
+}
+
+
+h1, h2, h3, p, hr, button {
+    margin: 0;
+    padding: 0;
+}
+hr{
+
+   color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+#cabecera{
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    justify-content: space-between;
+    background-color: #fafafa;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 50px;
+    padding-top: 20px;
+    position: relative;
+    padding: 8px 0;
+    border-width: 10px 0 0;
+    border-top-style: solid;
+    -o-border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    font-size: 18px;
+
+}
+
+#cabecera1{
+
+
+   
+    margin-left: 20px;
+   
+
+  
+
+}
+
+#cabecera2{
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-end;
+    width: 400px;
+    margin-right: 20px;
+   
+
+  
+
+}
+
+
+#barra2{
+
+margin: 0;
+background-color: #fafafa;
+height: 50px;
+padding: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+font-size: 18px;
+flex-wrap: wrap;
+
+
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background: rgb(226, 219, 219);
+    width: 800px;
+  }
+
+ 
+  #buttonCabecera {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff; 
+    border: 1px solid #333;
+    cursor: pointer;
+    
+  }
+
+  #primerSign{
+
+    border: 1px solid black;
+    padding: 20px;
+  }
+
+  #seccionPrimera{
+
+   height: 500px;
+   border: 1px solid black;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 700px;
+   border: 1px solid black;
+   
+  
+
+
+
+  }
+
+
+
+  #seccionPrimeraDiv{
+
+    text-align: center;
+ 
+  display: flex;
+  justify-content: center;
+gap: 20px;
+   flex-wrap: wrap;
+   height: 350px;
+   width: 700px;
+   color: white;
+  
+
+  }
+
+  #botonesSeccion button{
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+   }
+ 
+
+   #botonesSeccion1{
+
+    background: #ffc329;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .4);
+    color: #000000;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+    border-radius: 50px;
+   padding: 10px 30px;
+    font-weight: 700;
+    font-size: 18px;
+
+   }
+
+   #botonesSeccion2{
+    border: 2px solid #ffffff;
+   font-family: Poppins, sans-serif;
+   box-sizing: border-box;
+   border-radius: 50px;
+   background: #cb3837;
+   color: #ffffff;
+   padding: 10px 30px;
+    font-weight: 700;
+    font-size: 18px;
+
+
+
+   }
+
+  #seccionSegunda{
+
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #fafafa;
+    height: 600px;
+   
+    
+   
+ 
+ 
+ 
+   }
+ 
+ 
+ 
+   #seccionSegundaDiv{
+ 
+     text-align: center;
+  
+   display: flex;
+   justify-content: center;
+ 
+   gap: 10px;
+   
+    flex-wrap: wrap;
+    height: 350px;
+    width: 600px;
+ 
+ 
+ 
+   }
+
+   footer{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafa;
+    justify-content: space-around;
+    height: 200px;
+
+
+   }
+   h1{
+
+   
+    font-family: Poppins, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+   }
+
+   #imagenSeccionSegunda{
+
+    height: 100px;
+    width: 100px;
+
+   }
+
+   .parrafo{
+
+    line-height: 1.5;
+    font-family: 'Arimo', sans-serif;
+   }
+
